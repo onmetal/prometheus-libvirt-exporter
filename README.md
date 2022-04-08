@@ -2,8 +2,6 @@
 prometheus-libvirt-exporter for host and vm metrics exposed for prometheus, written in Go with pluggable metric collectors.
 By default, this exporter listens on TCP port 9000,Path '/metrics',to expose metrics.vm's tags contain userId,userName,ProjectId,ProjectName.
 
-[![Build Status](https://travis-ci.org/zhangjianweibj/prometheus-libvirt-exporter.svg?branch=master)](https://travis-ci.org/zhangjianweibj/prometheus-libvirt-exporter)
-[![codecov](https://codecov.io/gh/zhangjianweibj/prometheus-libvirt-exporter/branch/master/graph/badge.svg)](https://codecov.io/gh/zhangjianweibj/prometheus-libvirt-exporter)
 # Building and running
 
 ## Requirements

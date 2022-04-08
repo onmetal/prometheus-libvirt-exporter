@@ -1,10 +1,10 @@
-package main
+package exporter
 
 import (
 	"encoding/xml"
 	"fmt"
+	libvirt_schema "github.com/onmetal/prometheus-libvirt-exporter/libvirt_schema"
 	"github.com/stretchr/testify/assert"
-	libvirt_schema "github.com/zhangjianweibj/prometheus-libvirt-exporter/libvirt_schema"
 	"testing"
 )
 
